@@ -38,7 +38,7 @@ h1{
     border: 20px;
 }
 .formulario{
-    margin: 10% auto;
+    margin: 5% auto;
     padding-top: 5%;
     padding-bottom: 5%;    
     width: 620px;
@@ -115,7 +115,7 @@ footer{
     background-color: var(--colorPrim);
     height: 61px;
     width: 100%;
-    margin-top: 30%;  
+    margin-top: 25%;  
 }
 p{
     color: #fff;
