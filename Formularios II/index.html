@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario II</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+        integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+        </head>
+
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <img src="./img/obj.png" alt="tienda" class="img-top">
+        <h1>Nombre Tienda</h1>
+    </header>
+    <section class="formulario">
+        <form action="./log.html" method="POST">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+
+            <!-- primer columna -->
+            <div class="primerColumna">
+                <label for="nombre">*Nombre</label><br>
+                <input type="text" name="nombre" id="nombre" required>
+                <br>
+                <label for="fecha">Fecha</label><br>
+                <input type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa">
+                <br>
+                <textarea name="descripción" placeholder="Descripcion"></textarea>
+            </div>
+
+            <!-- segunda columna -->
+            <div clas="columna2">
+                <label for="especie">*Especie</label><br>
+                <select name="especie" placeholder="Especie" id="especie">
+                    <option>Especie</option>
+                    <option value="1">Humano/a</option>
+                    <option value="2">Alienigena</option>
+                    <option value="3">Mutante</option>
+                </select>
+                <br>
+                <label for="foto">Agregar Foto</label><br>
+                <input type="file" name="foto" id="foto">
+                <br>
+
+                <!-- checkbox -->
+                <section class="opciones">
+                    <legend>Poderes<br>
+                        <input type="checkbox" name="poder1" id="poder" value="1">
+                        <label for="poder">Volar</label>
+                        <br>
+                        <input type="checkbox" name="poder2" id="poder" value="2">
+                        <label for="poder">Superinteligencia</label>
+                        <br>
+                        <input type="checkbox" name="poder3" id="poder" value="3">
+                        <label for="poder">Vistade rayo laser</label>
+                        <br>
+                        <input type="checkbox" name="poder4" id="poder" value="4">
+                        <label for="poder">Billetera gorda</label>
+                    </legend> <br>
+                </section>
+
+                <!-- radio -->
+                <br><legend>Tipos de personaje<br>
+                    <input type="radio" name="tipo" id="tipo" value="1">
+                    <label for="tipo">Heroe / Heroina</label>
+                    <br>
+                    <input type="radio" name="tipo" id="tipo" value="2">
+                    <label for="tipo">Villano / villana</label>
+                </legend>
+            </div>
+            <button type="submit">Añadir</a>
+    </section>
+    <footer></a>
+        <p class="pieTexto">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

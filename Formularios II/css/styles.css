@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{box-sizing: border-box;}
+:root{
+    font-family: Roboto;
+--colorPrim: #00669F;
+--colorSec: #1cd1b0;
+}
+
+aside{
+    background-color: var(--colorSec);
+    height: 23px;
+    font-size: 15px;
+    color: black;
+    font-weight:400;
+    padding: 4px 0px 0px 20px;
+}
+header{
+    position: sticky;
+    top: 10px;
+    z-index: 15;
+    background-color: var(--colorPrim);
+}
+h1{
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 400;
+    height: 80px;
+    color: #fff;
+    padding:20px 0px 0px 120px;
+    margin: 0;
+}
+.img-top{
+    position: absolute;
+    left: 15px;
+    border: 20px;
+}
+.primerColumna{
+    margin: 0px 23px 0px 123px;
+}
+.formulario{
+    width: 954px;
+    height: 832px;
+    border-radius: 49px;
+    background-color:var(--colorPrim);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+h2{
+    margin: auto;
+    padding-top: 15px;
+    width: 300px;
+    height: 72px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+p{
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    margin-top: 2px;
+}
+legend{
+    font-family: Inter;
+    font-size: 20px;
+    color:#fff;
+    margin-left: 0px;
+}
+textarea{
+    padding: 20px 0px 0px 10px;
+}
+div{
+    display: inline-block;
+    vertical-align: top;
+}
+input[type=text], input[type=date], select{
+    width: 343px;
+    height: 63px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border:1.5px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+     
+}
+input[type=file]{
+    width: 223px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 35px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+input[type=checkbox], input[type=radio]{
+    margin-top: 10px;
+}
+label{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin-left: 0px;
+}
+label[for=tipo],label[for="poder"]{
+    margin-left: 0px;
+}
+textarea{
+    width: 343px;
+    height: 307px;
+    border-radius: 15px;
+    order:1.5px solid #000;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.opciones{
+    margin-top: 10px;
+    border-bottom: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+button{
+    width: 466px;
+    height: 87px;
+    margin: auto;
+    border-radius: 23px;
+    background-color: var(--colorSec);
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border: none; 
+    position: relative;
+    left:25%;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #000;
+}
+
+footer{
+    background-color: var(--colorPrim);
+    height: 61px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.pieTexto{
+    padding-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+textarea::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+
+}
